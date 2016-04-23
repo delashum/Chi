@@ -1,0 +1,17 @@
+/* Empty. Add your own CSS if you like */
+
+.row {
+    padding: 5px
+}
+
+.col {
+    padding: 0px
+}
+
+.card {
+    background-color: #f4f4f4;
+    padding: 12px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 10px 5px;
+}

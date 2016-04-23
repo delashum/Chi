@@ -1,0 +1,12 @@
+<ion-view view-title="Chi">
+    <ion-content>
+        <div class="row">
+            <div class="col" ng-repeat="(key,value) in cards">
+                <div style="border-color: {{item.color}}" class="card" ng-repeat="item in cards[key]">
+                    <div class="{{item}}-chi"></div>
+                </div>
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>
